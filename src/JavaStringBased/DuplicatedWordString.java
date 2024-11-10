@@ -36,8 +36,7 @@ public class DuplicatedWordString {
 
     public static void main(String[] args) {
         duplicateWords("java is java nothing can replace is java");
-        duplicateWords("Java is java again java");
-        duplicateWords("Super Man Bat Man Spider Man");
+       
     }
 }
 

@@ -19,7 +19,7 @@ public static void main(String[] args) {
 	///////////////////////////
 	System.out.println(Str2.contains(Str1));
 	///////////////////////////
-	System.out.println(Str2.substring(7)+" "+Str1.substring(3, 18));
+	System.out.println(Str2.substring(7)+" "+Str1.substring(1, 6));
 ///////////////////////////
 	System.out.println(Str3.trim());
 ///////////////////////////

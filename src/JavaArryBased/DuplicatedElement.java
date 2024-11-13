@@ -8,7 +8,7 @@ public class DuplicatedElement {
 	        for (int i = 0; i < name.length; i++) {
 	            boolean isDuplicate = false;
 
-	            for (int j = i + 1; j < name.length; j++) {
+	            for (int j = i+1; j < name.length; j++) {
 	                if (name[i] == name[j]) {
 	                    isDuplicate = true;
 	                    break;

@@ -12,7 +12,7 @@ public static void main(String[] args) {
 		System.out.println("Enter the word");
 	Scanner input= new Scanner(System.in);
 	String ch=input.nextLine();
-	int position=name.indexOf(ch);
+	int position=name.indexOf(ch)+1;
 	if (position==-1) {
 		System.out.println("the word is not included");
 	} else {

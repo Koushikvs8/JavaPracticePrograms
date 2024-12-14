@@ -23,7 +23,7 @@ public class SwapNum {
 		{    
 			int a;
 			int b;
-			int temp;
+			
 			while (true) {
 			System.out.println("\n"+"Enter the Number ");
 			Scanner input =new Scanner(System.in);

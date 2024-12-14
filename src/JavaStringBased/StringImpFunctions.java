@@ -9,7 +9,7 @@ public static void main(String[] args) {
 	String str4="   click   on the menu bar of HomePage  ";
 	String str5="Tommato - 34";
 	///////////////////////
-	System.out.println(Str1.charAt(6));
+	System.out.println(Str1.charAt(0));
 ////////////////////////////
 	System.out.println(Str1.equals(Str2));
 	///////////////////////////////
@@ -23,7 +23,9 @@ public static void main(String[] args) {
 ///////////////////////////
 	System.out.println(Str3.trim());
 ///////////////////////////
+	System.out.println(str4.length());
 System.out.println(str4.replaceAll("\\s+", "_"));
+System.out.println(str4.replaceAll("\\s+", "_").length());
 ///////////////////////////
 String[] split=str5.split("-");
 System.out.println(split[0].trim());

@@ -9,7 +9,7 @@ public class RemoveDuplication {
         
         // Sort the array
         Arrays.sort(arr);
-        
+        System.out.println("Sorted array: " + Arrays.toString(arr));
         // Count unique elements
         int uniqueCount = 1; // First element is always unique
         for (int i = 1; i < arr.length; i++) {

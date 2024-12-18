@@ -10,11 +10,14 @@ public static void main(String[] args) {
 	a[2]=3;
 	int[] b=new int[3];
 	
-	for (int i = 0,j =b.length-1; i < b.length; i++,j--) {
-		//for (int j =b.length-1; j>=0; j--) {
+	for (int i =2,  j =0; i>=0; i--,j++) {
+		
 			b[j]=a[i];
+			
 		
 	}
 	System.out.println(Arrays.toString(b));
 }
+
+
 }

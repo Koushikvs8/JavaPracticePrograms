@@ -20,6 +20,7 @@ public static void main(String[] args) {
 	char[] n2=name2.toCharArray();
 	
 	Arrays.sort(n1);
+	System.out.println(n1);
 	Arrays.sort(n2);
 	Boolean g= Arrays.equals(n1, n2);
 	if(g)

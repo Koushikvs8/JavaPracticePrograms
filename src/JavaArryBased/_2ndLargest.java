@@ -27,7 +27,7 @@ public class _2ndLargest {
 	
 	
 public static void main(String[] args) {
-	int[] num= { 12,23,23,23};
+	int[] num= { 12,23,45,67,89};
 	System.out.println(get2ndLargestApp1(num)); 
 	System.out.println(get2ndLargestApp2(num));
 	

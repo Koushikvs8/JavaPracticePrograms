@@ -1,6 +1,9 @@
 package JavaNumericalBased;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
+import java.util.Set;
 
 public class PrimNumber {
 	public static void logic()
@@ -47,3 +50,8 @@ public static void main(String[] args) {
 
 }
 }
+
+
+	
+	
+

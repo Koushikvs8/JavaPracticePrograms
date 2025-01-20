@@ -8,7 +8,7 @@ public class CommonElementByCollection {
 
 	public static void main(String[] args) {
 		int [] a1= {2,3,4,9,79,90,32,45};
-		int [] a2= {2,3,56,67,89,4,9,};
+		int [] a2= {2,3,56,67,89,4,9,3};
 		List<Integer> commenlist=logicForFinding(a1, a2 );
 		System.out.println("the commen Elemnts are"+commenlist);
 

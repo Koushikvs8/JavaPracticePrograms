@@ -3,8 +3,8 @@ package JavaArryBased;
 public class CommenElement {
 	public static void main(String[] args) {
         // Define two arrays
-        int[] array1 = {1, 2, 3, 4, 5};
-        int[] array2 = {3, 4, 5, 6, 7};
+        int[] array1 = {1, 2, 3, 4, 5,7};
+        int[] array2 = {2,3, 4, 5, 6, 7,3};
         
         // Call the method to find common elements
         findCommonElements(array1, array2);

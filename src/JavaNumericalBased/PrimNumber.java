@@ -26,7 +26,7 @@ public class PrimNumber {
 		{
 			for(int i=2; i<=Math.sqrt(num); i++)
 			{
-				if(num%i==0 )
+				if(num%i==0 || num<2 )
 				{
 					System.out.println("Not prime");
 					isprime=0;
@@ -54,4 +54,4 @@ public static void main(String[] args) {
 
 	
 	
-}
+

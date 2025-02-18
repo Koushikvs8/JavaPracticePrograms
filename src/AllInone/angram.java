@@ -9,7 +9,7 @@ public class angram {
 	
 	public static void main(String[] args) {
 		String word1="maliyalam";
-		String word2="maliyaal7m";
+		String word2="maliyalam";
 		char[] w1=word1.toCharArray();
 		char[] w2=word2.toCharArray();
 		Arrays.sort(w1);

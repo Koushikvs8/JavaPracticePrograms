@@ -16,7 +16,7 @@ public class Duplicatewords {
 				   if(words[i].equals(words[j]))
 				   {
 					   flag=true;
-					   
+					   break;
 				   }
 				
 			

@@ -11,6 +11,7 @@ public class removeduplicateArry {
 	
 	public static void main(String[] args) {
 		Integer[] num = { 3,5,8,8,90,45,45,23,12};
+		   
 		Set<Integer> set=new HashSet<Integer>(Arrays.asList(num));
 		
 		

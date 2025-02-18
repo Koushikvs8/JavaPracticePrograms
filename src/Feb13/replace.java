@@ -1,10 +1,6 @@
-package AllInone;
+package Feb13;
 
-public class StringReplace {
-     
-	  
-	
-	
+public class replace {
 	public static String rplaceChar(String str)
 	{
 		 String replaced=str.replace('M', '2').replace('N', '3');

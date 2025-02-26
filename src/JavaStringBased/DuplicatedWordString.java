@@ -31,7 +31,7 @@ public class DuplicatedWordString {
                 // Printing the word and its count
                 System.out.println(word + " : " + wordCount.get(word));
             }
-        }
+        } 
     }
 
     public static void main(String[] args) {

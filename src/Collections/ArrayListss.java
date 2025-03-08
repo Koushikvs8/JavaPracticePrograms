@@ -1,4 +1,4 @@
-package List;
+package Collections;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -17,7 +17,7 @@ public static void main(String[] args) {
 	names.add(2, null);
 	names.add("gilli");
 	System.out.println(names.toString());
-	
+	Iterator<String> itratesr=(Iterator<String>) new ArrayList<String>();
 	Iterator<String> itrater=names.iterator();
 	System.out.print("[");
 	while(itrater.hasNext())

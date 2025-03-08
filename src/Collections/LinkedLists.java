@@ -1,4 +1,4 @@
-package Feb13;
+package Collections;
 
 import java.util.Arrays;
 import java.util.LinkedList;
